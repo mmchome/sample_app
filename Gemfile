@@ -3,6 +3,7 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.0'
+gem 'bootstrap-sass', '2.3.2.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
@@ -22,7 +23,7 @@ group :test do
 
   # Uncomment these lines on Windows.
   gem 'rb-notifu', '0.0.4'
-  #gem 'win32console', '1.3.2'
+  #gem 'win32console', '1.3.2' --doesnt work on windows 8
   gem 'wdm', '0.1.0'
 end
 
