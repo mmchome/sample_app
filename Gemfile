@@ -10,7 +10,7 @@ gem 'rake-compiler'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
- # gem 'guard-rspec', '2.5.0'
+  gem 'guard-rspec', '2.5.0'
 end
 
 group :test do
@@ -27,6 +27,9 @@ group :test do
   gem 'rb-notifu', '0.0.4'
   #gem 'win32console', '1.3.2' --doesnt work on windows 8
   gem 'wdm', '0.1.0'
+
+  #creating factory objects for testing
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 gem 'sass-rails', '4.0.0'
