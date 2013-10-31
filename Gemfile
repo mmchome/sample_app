@@ -17,8 +17,12 @@ group :development, :test do
 end
 
 group :test do
+  gem 'capybara', '2.1.0'
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'factory_girl_rails', '4.2.0'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 
   # Uncomment this line on OS X.
   # gem 'growl', '1.0.3'
@@ -32,7 +36,7 @@ group :test do
   gem 'wdm', '0.1.0'
 
   #creating factory objects for testing
-  gem 'factory_girl_rails', '4.2.1'
+  #gem 'factory_girl_rails', '4.2.1'
 end
 
 gem 'sass-rails', '4.0.0'
